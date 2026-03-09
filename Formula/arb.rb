@@ -4,26 +4,26 @@
 class Arb < Formula
   desc "Git Worktrees, Finally Simple"
   homepage "https://github.com/rspencerfink/git-arborist"
-  version "0.1.14"
+  version "0.1.15"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.14/arb-darwin-arm64"
-      sha256 "4b4a76fdd1b58a1778e99f16c94c59ff57f7ff7a04411596903b1cd1d51ecd75"
+      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.15/arb-darwin-arm64"
+      sha256 "9f73093835b59b8e3e148c74170c6bbe3f0d29dd7d658ee755b0d79c9b58e2cc"
     else
-      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.14/arb-darwin-x64"
-      sha256 "33192d7b72d0366c1ce18ec10c87887500be772d027b39c4292c0ca986771334"
+      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.15/arb-darwin-x64"
+      sha256 "19a4f2cc4851c6ef995944c92433f1d0f6a5ba9119c0647d3d26f0ca5b0e4d7c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.14/arb-linux-arm64"
-      sha256 "6cccfe214931be42013bf3043f9b74620283f6f2f28236099e8f64aa4b33d18d"
+      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.15/arb-linux-arm64"
+      sha256 "1849db8279f1d71e22a67d1a089943dc8c2836f93c8856031302a72d7864b992"
     else
-      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.14/arb-linux-x64"
-      sha256 "bca21478d7dfe184af13e63bab6394f854276ce4a8be59375709dc1ce0b528b3"
+      url "https://github.com/rspencerfink/git-arborist/releases/download/v0.1.15/arb-linux-x64"
+      sha256 "25b4627b14a9e1d0612a8ae9bf7c0f8ed2acfb039939ef56417338ae034d0960"
     end
   end
 
